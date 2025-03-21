@@ -1,5 +1,5 @@
 <?php
-
+namespace App\DTO;
 use App\DTO\BaseDTO;
 
 class PlantDTO extends BaseDTO

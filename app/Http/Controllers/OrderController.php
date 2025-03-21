@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\DAO\OrderDAO;
+use App\DTO\OrderDTO;
+use App\DTO\OrderStatusDTO;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
-use OrderDAO;
-use OrderDTO;
-use OrderStatusDTO;
 class OrderController extends Controller
 {
     protected $orderDAO;

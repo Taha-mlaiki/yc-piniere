@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\DAO\PlantDAO;
+use App\DAO\PlantImageDAO;
+use App\DTO\PlantDTO;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
-use PlantDAO;
-use PlantDTO;
-use PlantImageDAO;
 
 class PlantController extends Controller
 {

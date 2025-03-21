@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
-use UserDAO;
-use UserDTO;
+
+use App\DAO\UserDAO;
+use App\DTO\UserDTO;
+use App\Http\Controllers\Controller;
 
 class AuthController extends Controller
 {

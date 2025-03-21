@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\DAO\OrderDAO;
 use Illuminate\Http\Request;
-use OrderDAO;
 
 class StatisticsController extends Controller
 {

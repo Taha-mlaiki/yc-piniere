@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use CategoryDAO;
-use CategoryDTO;
+use App\DAO\CategoryDAO;
+use App\DTO\CategoryDTO;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 
