@@ -1,5 +1,6 @@
 <?php
 
+use App\D\BaseDAO;
 use App\Models\Plant;
 use App\Models\PlantImage;
 use Illuminate\Database\Eloquent\Collection;

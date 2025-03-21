@@ -1,5 +1,6 @@
 <?php
 
+use App\D\BaseDAO;
 use App\Models\Category;
 
 class CategoryDAO extends BaseDAO
